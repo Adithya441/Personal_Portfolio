@@ -11,9 +11,9 @@ function ProjectLanguages(props) {
             return (
               <OverlayTrigger
                 key={logo.name}
-                placement={"top"}
+                placement="top"
                 overlay={
-                  <Tooltip id={`tooltip-top`}>
+                  <Tooltip id={`tooltip-${logo.name}`}>
                     <strong>{logo.name}</strong>
                   </Tooltip>
                 }
@@ -22,12 +22,10 @@ function ProjectLanguages(props) {
                   className="software-skill-inline-languages"
                   name={logo.skillName}
                 >
-                  <span
-                    className="iconify"
-                    data-icon={logo.iconifyClass}
+                  <i
+                    className={logo.faClass}
                     style={logo.color ? { color: logo.color } : {}}
-                    data-inline="false"
-                  ></span>
+                  ></i>
                 </li>
               </OverlayTrigger>
             );

@@ -30,15 +30,13 @@ function Education(props) {
                 style={{ color: theme.secondaryText }}
               >
                 I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                activities.
               </p>
             </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
-        <Certifications theme={props.theme} />
       </div>
-      <Footer theme={props.theme} />
     </div>
   );
 }
