@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+//import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { Fade } from "react-reveal";
 import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
