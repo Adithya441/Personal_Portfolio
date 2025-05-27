@@ -9,8 +9,6 @@ import {
   FaReact,
   FaNodeJs,
   FaGit,
-  FaDatabase,
-  FaWindows,
   FaCode,
 } from "react-icons/fa";
 import {
@@ -18,7 +16,6 @@ import {
   SiCplusplus,
   SiMysql,
   SiVisualstudiocode,
-  SiWindsurfing,
 } from "react-icons/si";
 
 const skillIconMap = {
