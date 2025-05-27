@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
+//import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
